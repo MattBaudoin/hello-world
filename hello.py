@@ -7,4 +7,4 @@ print('Its been scientifically proven that people named ' + myName + ' are less 
 print('Also, your dick is shorter than the length of your name at ' + str(len(myName)) + ' characters.')
 print('What is your age?')  # ask for their age
 myAge = input()
-print('No one gives a fuck, father time. Give it a year and you\'ll be a truly old fuck at ' + str(int(myAge) + 1) + '.')
+print('No one gives a fuck, father time. Give it a year and you\'ll be a truly old fuck at ' + str(int(myAge) + 1))
