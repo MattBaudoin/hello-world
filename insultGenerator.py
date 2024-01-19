@@ -3,6 +3,7 @@
 import random
 
 print('Hi, what\'s your name?')
+
 myname = input()  # get name from user
 
 library = [(myname + ', if you aren\'t an idiot, you made a world-class effort at simulating one.'),
@@ -12,6 +13,8 @@ library = [(myname + ', if you aren\'t an idiot, you made a world-class effort a
            ('Someday ' + myname + ' will go far. I hope they stay there forever.'),
            (myname + ', I have neither the time nor the crayons to explain this to you.')
 ]
+
 insult = random.choice(library)
+
 print(insult)
 
